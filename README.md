@@ -180,3 +180,10 @@ ohdsi-omop-practice/
 ---
 
 This project is not intended to build a predictive model, but to practice the foundational data standardization and quality checking workflow required before real-world healthcare data can be used for research.
+
+---
+
+## Data Note
+This repository uses public sample data for learning purposes.
+
+No real patient-level data or private healthcare data is included in this repository.
