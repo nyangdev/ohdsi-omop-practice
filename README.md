@@ -59,7 +59,7 @@ Topics:
 
 ---
 
-### 2. Eunomia Sample CDM Setuap
+### 2. Eunomia Sample CDM Setup
 
 Use Eunomia sample OMOP CDM data to explore actual CDM tables.
 
@@ -175,6 +175,7 @@ ohdsi-omop-practice/
 │   └── 08_dq_check_results.md
 └── images/
     └── omop_core_table_flow.png
+```
 
 ---
 
