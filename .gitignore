@@ -1,0 +1,7 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user
+
+# Local environment variables
+.env
