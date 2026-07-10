@@ -145,10 +145,11 @@ ohdsi-omop-practice/
 ├── .gitignore
 ├── docs/
 │   ├── 01_ohdsi_learning_summary.md
-│   ├── 02_eunomia_practice_report.md
-│   ├── 03_concept_vocabulary_summary.md
-│   ├── 04_data_quality_summary.md
-│   └── 05_reflection_data_engineering_perspective.md
+│   ├── 02_environment_setup.md
+│   ├── 03_eunomia_practice_report.md
+│   ├── 04_concept_vocabulary_summary.md
+│   ├── 05_data_quality_summary.md
+│   └── 06_reflection_data_engineering_perspective.md
 ├── r/
 │   ├── 00_setup.R
 │   ├── 01_connect_eunomia.R
