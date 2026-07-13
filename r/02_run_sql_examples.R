@@ -99,6 +99,18 @@ tryCatch(
     message("Measurement and unit concept join query completed.")
     print(top_measurements)
     
+    # Compare source condition values with source and standard concepts
+    source_value_comparison <- run_sql_file(
+      connection = connection,
+      sql_file = file.path(
+        "sql",
+        "06_source_value_vs_concept.sql"
+      )
+    )
+    
+    message("Source value and concept comparison query completed.")
+    print(source_value_comparison)
+    
   },
   finally = {
     DatabaseConnector::disconnect(connection)
