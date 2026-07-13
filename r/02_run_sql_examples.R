@@ -86,6 +86,19 @@ tryCatch(
     
     message("Drug exposure and concept join query completed.")
     print(top_drugs)
+    
+    # Summarize measurement records with concept and unit information
+    top_measurements <- run_sql_file(
+      connection = connection,
+      sql_file = file.path(
+        "sql",
+        "05_join_measurement_with_concept.sql"
+      )
+    )
+    
+    message("Measurement and unit concept join query completed.")
+    print(top_measurements)
+    
   },
   finally = {
     DatabaseConnector::disconnect(connection)
