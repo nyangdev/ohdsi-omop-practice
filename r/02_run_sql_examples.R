@@ -74,6 +74,18 @@ tryCatch(
     
     message("Condition and concept join query completed.")
     print(top_conditions)
+    
+    # Join drug exposure records with standardized concept information
+    top_drugs <- run_sql_file(
+      connection = connection,
+      sql_file = file.path(
+        "sql",
+        "04_join_drug_with_concept.sql"
+      )
+    )
+    
+    message("Drug exposure and concept join query completed.")
+    print(top_drugs)
   },
   finally = {
     DatabaseConnector::disconnect(connection)
