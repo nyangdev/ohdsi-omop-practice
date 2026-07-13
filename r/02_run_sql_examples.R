@@ -62,6 +62,18 @@ tryCatch(
     
     message("Person and clinical event summary query completed.")
     print(person_event_summary)
+    
+    # Join condition records with standardized concept information
+    top_conditions <- run_sql_file(
+      connection = connection,
+      sql_file = file.path(
+        "sql",
+        "03_join_condition_with_concept.sql"
+      )
+    )
+    
+    message("Condition and concept join query completed.")
+    print(top_conditions)
   },
   finally = {
     DatabaseConnector::disconnect(connection)
