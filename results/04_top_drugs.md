@@ -112,3 +112,32 @@ drug_record_count >= person_count
 ## 확인한 사항
 
 이번 실습을 통해 OMOP CDM의 약물 노출 기록이 Standardized Vocabulary와 결합되어 해석된다는 점을 확인했습니다.
+
+<!-- AUTO-GENERATED-RESULT:START -->
+
+## 자동 생성 결과 테이블
+
+| drug_concept_id | concept_name | domain_id | vocabulary_id | concept_class_id | standard_concept | drug_record_count | person_count |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1,127,433 | Acetaminophen 325 MG Oral Tablet | Drug | RxNorm | Clinical Drug | S | 9,365 | 2,580 |
+| 40,213,160 | poliovirus vaccine, inactivated | Drug | CVX | CVX | S | 7,977 | 2,140 |
+| 40,213,227 | tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use | Drug | CVX | CVX | S | 7,430 | 2,660 |
+| 19,059,056 | Aspirin 81 MG Oral Tablet | Drug | RxNorm | Clinical Drug | S | 4,380 | 1,927 |
+| 1,713,671 | Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet | Drug | RxNorm | Clinical Drug | S | 3,851 | 2,021 |
+| 40,213,296 | hepatitis A vaccine, adult dosage | Drug | CVX | CVX | S | 3,211 | 1,737 |
+| 1,127,078 | Acetaminophen 160 MG Oral Tablet | Drug | RxNorm | Clinical Drug | S | 2,158 | 1,428 |
+| 40,213,260 | zoster vaccine, live | Drug | CVX | CVX | S | 2,125 | 1,140 |
+| 40,229,134 | Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution | Drug | RxNorm | Clinical Drug | S | 1,993 | 1,393 |
+| 40,213,306 | hepatitis B vaccine, adult dosage | Drug | CVX | CVX | S | 1,916 | 1,560 |
+| 1,118,084 | celecoxib | Drug | RxNorm | Ingredient | S | 1,844 | 1,844 |
+| 19,078,461 | Ibuprofen 200 MG Oral Tablet | Drug | RxNorm | Clinical Drug | S | 1,767 | 1,280 |
+| 19,133,873 | Penicillin V Potassium 250 MG Oral Tablet | Drug | RxNorm | Clinical Drug | S | 1,719 | 1,272 |
+| 40,213,314 | Haemophilus influenzae type b vaccine, PRP-OMP conjugate | Drug | CVX | CVX | S | 1,413 | 555 |
+| 1,115,171 | Naproxen sodium 220 MG Oral Tablet | Drug | RxNorm | Clinical Drug | S | 1,159 | 947 |
+| 19,006,318 | Penicillin G 375 MG/ML Injectable Solution | Drug | RxNorm | Clinical Drug | S | 1,142 | 831 |
+| 19,133,905 | Penicillin V Potassium 500 MG Oral Tablet | Drug | RxNorm | Clinical Drug | S | 1,087 | 856 |
+| 19,128,065 | {7 (Inert Ingredients 1 MG Oral Tablet) / 21 (Mestranol 0.05 MG / Norethindrone 1 MG Oral Tablet) } Pack [Norinyl 1+50 28 Day] | Drug | RxNorm | Branded Pack | S | 1,056 | 605 |
+| 1,124,300 | Diclofenac | Drug | RxNorm | Ingredient | S | 850 | 850 |
+| 920,300 | Nitrofurantoin 5 MG/ML Oral Suspension | Drug | RxNorm | Clinical Drug | S | 810 | 630 |
+
+<!-- AUTO-GENERATED-RESULT:END -->

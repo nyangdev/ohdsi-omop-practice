@@ -156,3 +156,32 @@ condition_record_count >= person_count
 ## 확인한 사항
 
 OMOP CDM은 표준화된 Condition Concept만 저장하는 것이 아니라, 원천 진단 값과 Source Concept 정보도 함께 보존하여 ETL 결과를 추적할 수 있게 한다는 점을 확인하였습니다.
+
+<!-- AUTO-GENERATED-RESULT:START -->
+
+## 자동 생성 결과 테이블
+
+| condition_source_value | condition_source_concept_id | source_concept_code | source_concept_name | source_vocabulary_id | source_standard_concept | condition_concept_id | standard_concept_name | standard_vocabulary_id | target_standard_concept | concept_status | condition_record_count | person_count |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 444814009 | 40,481,087 | 444814009 | Viral sinusitis | SNOMED | S | 40,481,087 | Viral sinusitis | SNOMED | S | Source and standard concepts present | 17,268 | 2,686 |
+| 195662009 | 4,112,343 | 195662009 | Acute viral pharyngitis | SNOMED | S | 4,112,343 | Acute viral pharyngitis | SNOMED | S | Source and standard concepts present | 10,217 | 2,606 |
+| 10509002 | 260,139 | 10509002 | Acute bronchitis | SNOMED | S | 260,139 | Acute bronchitis | SNOMED | S | Source and standard concepts present | 8,184 | 2,543 |
+| 65363002 | 372,328 | 65363002 | Otitis media | SNOMED | S | 372,328 | Otitis media | SNOMED | S | Source and standard concepts present | 3,605 | 2,025 |
+| 396275006 | 80,180 | 396275006 | Osteoarthritis | SNOMED | S | 80,180 | Osteoarthritis | SNOMED | S | Source and standard concepts present | 2,694 | 2,694 |
+| 43878008 | 28,060 | 43878008 | Streptococcal sore throat | SNOMED | S | 28,060 | Streptococcal sore throat | SNOMED | S | Source and standard concepts present | 2,656 | 1,677 |
+| 44465007 | 81,151 | 44465007 | Sprain of ankle | SNOMED | S | 81,151 | Sprain of ankle | SNOMED | S | Source and standard concepts present | 1,915 | 1,357 |
+| 62106007 | 378,001 | 62106007 | Concussion with no loss of consciousness | SNOMED | S | 378,001 | Concussion with no loss of consciousness | SNOMED | S | Source and standard concepts present | 1,013 | 852 |
+| 36971009 | 4,283,893 | 36971009 | Sinusitis | SNOMED | S | 4,283,893 | Sinusitis | SNOMED | S | Source and standard concepts present | 1,001 | 833 |
+| 75498004 | 4,294,548 | 75498004 | Acute bacterial sinusitis | SNOMED | S | 4,294,548 | Acute bacterial sinusitis | SNOMED | S | Source and standard concepts present | 939 | 786 |
+| 40055000 | 257,012 | 40055000 | Chronic sinusitis | SNOMED | S | 257,012 | Chronic sinusitis | SNOMED | S | Source and standard concepts present | 825 | 812 |
+| 39848009 | 4,218,389 | 39848009 | Whiplash injury to neck | SNOMED | S | 4,218,389 | Whiplash injury to neck | SNOMED | S | Source and standard concepts present | 825 | 708 |
+| 13200003 | 4,027,663 | 13200003 | Peptic ulcer | SNOMED | S | 4,027,663 | Peptic ulcer | SNOMED | S | Source and standard concepts present | 802 | 802 |
+| 70704007 | 78,272 | 70704007 | Sprain of wrist | SNOMED | S | 78,272 | Sprain of wrist | SNOMED | S | Source and standard concepts present | 770 | 677 |
+| 65966004 | 4,278,672 | 65966004 | Fracture of forearm | SNOMED | S | 4,278,672 | Fracture of forearm | SNOMED | S | Source and standard concepts present | 569 | 510 |
+| 283371005 | 4,155,034 | 283371005 | Laceration of forearm | SNOMED | S | 4,155,034 | Laceration of forearm | SNOMED | S | Source and standard concepts present | 507 | 459 |
+| 284549007 | 4,113,008 | 284549007 | Laceration of hand | SNOMED | S | 4,113,008 | Laceration of hand | SNOMED | S | Source and standard concepts present | 500 | 462 |
+| 283385000 | 4,152,936 | 283385000 | Laceration of thigh | SNOMED | S | 4,152,936 | Laceration of thigh | SNOMED | S | Source and standard concepts present | 499 | 455 |
+| 370247008 | 4,156,265 | 370247008 | Facial laceration | SNOMED | S | 4,156,265 | Facial laceration | SNOMED | S | Source and standard concepts present | 497 | 459 |
+| 263102004 | 4,134,304 | 263102004 | Fracture subluxation of wrist | SNOMED | S | 4,134,304 | Fracture subluxation of wrist | SNOMED | S | Source and standard concepts present | 493 | 442 |
+
+<!-- AUTO-GENERATED-RESULT:END -->

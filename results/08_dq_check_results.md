@@ -252,3 +252,31 @@ Eunomia Sample CDM의 Person 및 Concept 참조 관계에서는 발견 사항이
 반면 `drug_exposure_id`와 `measurement_id`에서 Primary Key 중복이 발견되었고, 일부 Condition, Drug Exposure 및 Measurement 이벤트가 Observation Period 밖에 존재하였습니다.
 
 또한 44,053건의 Measurement 기록에서 숫자형, 범주형 또는 원천 결과값을 확인할 수 없었습니다.
+
+<!-- AUTO-GENERATED-RESULT:START -->
+
+## 자동 생성 결과 테이블
+
+| check_id | check_category | check_name | finding_count |
+| --- | --- | --- | --- |
+| DQ001 | Uniqueness | Duplicate person_id | 0 |
+| DQ002 | Uniqueness | Duplicate observation_period_id | 0 |
+| DQ003 | Uniqueness | Duplicate condition_occurrence_id | 0 |
+| DQ004 | Uniqueness | Duplicate drug_exposure_id | 4,384 |
+| DQ005 | Uniqueness | Duplicate measurement_id | 2,183 |
+| DQ006 | Temporal validity | Observation period start date after end date | 0 |
+| DQ007 | Temporal validity | Condition start date outside observation period | 85 |
+| DQ008 | Temporal validity | Drug exposure start date outside observation period | 80 |
+| DQ009 | Temporal validity | Measurement date outside observation period | 4 |
+| DQ010 | Referential integrity | Condition records with missing person reference | 0 |
+| DQ011 | Referential integrity | Drug exposure records with missing person reference | 0 |
+| DQ012 | Referential integrity | Measurement records with missing person reference | 0 |
+| DQ013 | Standardization | Condition records with condition_concept_id 0 | 0 |
+| DQ014 | Standardization | Drug exposure records with drug_concept_id 0 | 0 |
+| DQ015 | Standardization | Measurement records with measurement_concept_id 0 | 0 |
+| DQ016 | Referential integrity | Condition concept IDs not found in concept table | 0 |
+| DQ017 | Referential integrity | Drug concept IDs not found in concept table | 0 |
+| DQ018 | Referential integrity | Measurement concept IDs not found in concept table | 0 |
+| DQ019 | Completeness | Measurement records without any result value | 44,053 |
+
+<!-- AUTO-GENERATED-RESULT:END -->

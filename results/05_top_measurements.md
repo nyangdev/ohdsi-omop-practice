@@ -125,3 +125,32 @@ OMOP CDM의 Measurement 결과는 여러 방식으로 저장될 수 있습니다
 ## 결론
 
 이번 실습에 조회한 데이터는 측정값 자체보다는 측정 또는 검사 이벤트가 존재했다는 사실을 나타내는 것으로 이해했습니다.
+
+<!-- AUTO-GENERATED-RESULT:START -->
+
+## 자동 생성 결과 테이블
+
+| measurement_concept_id | measurement_concept_name | domain_id | vocabulary_id | standard_concept | unit_concept_id | unit_concept_name | measurement_record_count | person_count | numeric_value_count | concept_value_count | source_value_count | missing_result_count | min_value | avg_value | max_value |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 3,006,322 | Oral temperature | Measurement | LOINC | S | 0 | No matching concept | 12,873 | 2,664 | 0 | 0 | 0 | 12,873 | NA | NA | NA |
+| 4,024,958 | Throat culture | Measurement | SNOMED | S | 0 | No matching concept | 5,507 | 2,336 | 0 | 0 | 0 | 5,507 | NA | NA | NA |
+| 4,052,083 | Measurement of respiratory function | Measurement | SNOMED | S | 0 | No matching concept | 4,088 | 2,072 | 0 | 0 | 0 | 4,088 | NA | NA | NA |
+| 3,011,505 | FEV1/FVC | Measurement | LOINC | S | 0 | No matching concept | 2,320 | 125 | 0 | 0 | 0 | 2,320 | NA | NA | NA |
+| 4,133,840 | Spirometry | Measurement | SNOMED | S | 0 | No matching concept | 2,320 | 125 | 0 | 0 | 0 | 2,320 | NA | NA | NA |
+| 40,766,240 | Are you covered by health insurance or some other kind of health care plan [PhenX] | Measurement | LOINC | S | 0 | No matching concept | 1,046 | 211 | 0 | 0 | 0 | 1,046 | NA | NA | NA |
+| 40,758,406 | HIV status | Measurement | LOINC | S | 0 | No matching concept | 1,046 | 211 | 0 | 0 | 0 | 1,046 | NA | NA | NA |
+| 3,051,031 | History of Hospitalizations+Outpatient visits Narrative | Measurement | LOINC | S | 0 | No matching concept | 1,046 | 211 | 0 | 0 | 0 | 1,046 | NA | NA | NA |
+| 46,235,214 | Sexual orientation | Measurement | LOINC | S | 0 | No matching concept | 1,046 | 211 | 0 | 0 | 0 | 1,046 | NA | NA | NA |
+| 3,036,780 | American house dust mite IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,023,430 | Cat dander IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,005,136 | Cladosporium herbarum IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,000,876 | Codfish IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,001,247 | Common Ragweed IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,001,488 | Cow milk IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,014,599 | Egg white IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,020,655 | Honey bee IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,019,406 | Latex IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,012,494 | Peanut IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+| 3,021,226 | Shrimp IgE Ab [Units/volume] in Serum | Measurement | LOINC | S | 0 | No matching concept | 704 | 320 | 0 | 0 | 0 | 704 | NA | NA | NA |
+
+<!-- AUTO-GENERATED-RESULT:END -->

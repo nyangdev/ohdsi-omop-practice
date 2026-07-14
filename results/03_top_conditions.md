@@ -102,3 +102,32 @@ condition_record_count >= person_count
 ## 확인한 사항
 
 이번 실습을 통해 OMOP CDM의 임상 이벤트는 Standardized Vocabulary와 결합되어 해석된다는 점을 확인했습니다.
+
+<!-- AUTO-GENERATED-RESULT:START -->
+
+## 자동 생성 결과 테이블
+
+| condition_concept_id | concept_name | domain_id | vocabulary_id | standard_concept | condition_record_count | person_count |
+| --- | --- | --- | --- | --- | --- | --- |
+| 40,481,087 | Viral sinusitis | Condition | SNOMED | S | 17,268 | 2,686 |
+| 4,112,343 | Acute viral pharyngitis | Condition | SNOMED | S | 10,217 | 2,606 |
+| 260,139 | Acute bronchitis | Condition | SNOMED | S | 8,184 | 2,543 |
+| 372,328 | Otitis media | Condition | SNOMED | S | 3,605 | 2,025 |
+| 80,180 | Osteoarthritis | Condition | SNOMED | S | 2,694 | 2,694 |
+| 28,060 | Streptococcal sore throat | Condition | SNOMED | S | 2,656 | 1,677 |
+| 81,151 | Sprain of ankle | Condition | SNOMED | S | 1,915 | 1,357 |
+| 378,001 | Concussion with no loss of consciousness | Condition | SNOMED | S | 1,013 | 852 |
+| 4,283,893 | Sinusitis | Condition | SNOMED | S | 1,001 | 833 |
+| 4,294,548 | Acute bacterial sinusitis | Condition | SNOMED | S | 939 | 786 |
+| 257,012 | Chronic sinusitis | Condition | SNOMED | S | 825 | 812 |
+| 4,218,389 | Whiplash injury to neck | Condition | SNOMED | S | 825 | 708 |
+| 4,027,663 | Peptic ulcer | Condition | SNOMED | S | 802 | 802 |
+| 78,272 | Sprain of wrist | Condition | SNOMED | S | 770 | 677 |
+| 4,278,672 | Fracture of forearm | Condition | SNOMED | S | 569 | 510 |
+| 4,155,034 | Laceration of forearm | Condition | SNOMED | S | 507 | 459 |
+| 4,113,008 | Laceration of hand | Condition | SNOMED | S | 500 | 462 |
+| 4,152,936 | Laceration of thigh | Condition | SNOMED | S | 499 | 455 |
+| 4,156,265 | Facial laceration | Condition | SNOMED | S | 497 | 459 |
+| 4,134,304 | Fracture subluxation of wrist | Condition | SNOMED | S | 493 | 442 |
+
+<!-- AUTO-GENERATED-RESULT:END -->
