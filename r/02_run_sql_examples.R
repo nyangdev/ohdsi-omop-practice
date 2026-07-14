@@ -135,6 +135,18 @@ tryCatch(
     message("Simple GI bleed cohort query completed.")
     print(simple_cohort)
     
+    # Run basic OMOP CDM data quality checks
+    dq_check_results <- run_sql_file(
+      connection = connection,
+      sql_file = file.path(
+        "sql",
+        "09_dq_checks.sql"
+      )
+    )
+    
+    message("Basic OMOP CDM data quality checks completed.")
+    print(dq_check_results)
+    
   },
   finally = {
     DatabaseConnector::disconnect(connection)
