@@ -123,6 +123,18 @@ tryCatch(
     message("Diabetes concept candidate search completed.")
     print(diabetes_concept_candidates)
     
+    # Create a simple rule-based GI bleed cohort
+    simple_cohort <- run_sql_file(
+      connection = connection,
+      sql_file = file.path(
+        "sql",
+        "08_simple_rule_based_cohort.sql"
+      )
+    )
+    
+    message("Simple GI bleed cohort query completed.")
+    print(simple_cohort)
+    
   },
   finally = {
     DatabaseConnector::disconnect(connection)
