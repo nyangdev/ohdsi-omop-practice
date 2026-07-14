@@ -148,8 +148,7 @@ ohdsi-omop-practice/
 │   ├── 02_environment_setup.md
 │   ├── 03_eunomia_practice_report.md
 │   ├── 04_concept_vocabulary_summary.md
-│   ├── 05_data_quality_summary.md
-│   └── 06_reflection_data_engineering_perspective.md
+│   └── 05_data_quality_summary.md
 ├── r/
 │   ├── 00_setup.R
 │   ├── 01_connect_eunomia.R
