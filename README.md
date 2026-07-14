@@ -172,9 +172,7 @@ ohdsi-omop-practice/
 │   ├── 05_top_measurements.md
 │   ├── 06_source_value_vs_concept.md
 │   ├── 07_simple_cohort_result.md
-│   └── 08_dq_check_results.md
-└── images/
-    └── omop_core_table_flow.png
+└── └── 08_dq_check_results.md
 ```
 
 ---
