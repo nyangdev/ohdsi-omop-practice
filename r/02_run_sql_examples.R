@@ -111,6 +111,18 @@ tryCatch(
     message("Source value and concept comparison query completed.")
     print(source_value_comparison)
     
+    # Search standard Condition concept candidates related to diabetes
+    diabetes_concept_candidates <- run_sql_file(
+      connection = connection,
+      sql_file = file.path(
+        "sql",
+        "07_concept_set_like_query.sql"
+      )
+    )
+    
+    message("Diabetes concept candidate search completed.")
+    print(diabetes_concept_candidates)
+    
   },
   finally = {
     DatabaseConnector::disconnect(connection)
